@@ -45,7 +45,7 @@ export default function page(){
             </section>
 
             <section className="md:hidden p-5">
-            <div className="flex flex-col items-center gap-10 w-full text-xs">
+            <div className="flex flex-col items-center gap-3 w-full text-xs">
                     <div>Product Details</div>
                     <Image src={camera7} alt="camera7"  className="h-72 w-72 object-cover rounded-t-md" />
                     <div className="flex gap-5">
