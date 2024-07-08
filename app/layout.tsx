@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="">
-      <body className={ `${inter.className} relative max-h-screen`}>
+      <body className={ `${inter.className} relative min-h-screen`}>
         <Discount />
         <Navbar />
           {children}

@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default function Footer(){
     return(
         
-        <main className="w-full h-full mb-auto bottom-0">
+        <main className="w-full  bottom-0">
             <section className="hidden  md:flex flex-col  bg-timbu-black ">
                 <div className="flex max-w-screen-lg m-auto py-10 justify-between w-full   text-slate-300 bg-timbu-black rounded-b-md">
                     <div className="flex flex-col gap-5  ">
