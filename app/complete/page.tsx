@@ -10,7 +10,7 @@ export default function page(){
                     <IoCheckmarkCircleOutline className="font-black w-1/2 text-9xl" />
                     <p className="font-bold text-2xl w-1/2">Payment Succesful</p>
                     <p className="font-bold text-lg">Thank you for shopping. Your order has been successfully placed and has been processed for delivery</p>
-                    <div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/">Back to Home</a> </div>
+                    <a href="/"><div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center"> Back to Home </div></a>
                 </div>
             </section>
 
@@ -19,7 +19,7 @@ export default function page(){
                     <IoCheckmarkCircleOutline className="font-black w-1/2 text-9xl" />
                     <p className="font-bold text-2xl w-1/2">Payment Succesful</p>
                     <p className="font-bold text-lg">Thank you for shopping. Your order has been successfully placed and has been processed for delivery</p>
-                    <div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/">Back to Home</a> </div>
+                    <a href="/"><div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center"> Back to Home </div></a>
                 </div>
             </section>
         </main>

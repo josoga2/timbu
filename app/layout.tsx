@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Discount from "@/components/Discount";
+import Footer from "@/components/Footer"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,13 +19,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-      <Discount />
-      <Navbar />
+    <html lang="en" className="">
+      <body className={ `${inter.className} relative max-h-screen`}>
+        <Discount />
+        <Navbar />
           {children}
-
+        
       </body>
+      <Footer />
+      
     </html>
   );
 }

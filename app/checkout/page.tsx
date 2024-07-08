@@ -59,7 +59,7 @@ export default function page(){
                     </div>
 
                     <div className="bg-timbu-green mx-56 py-2 rounded-md text-timbu-white  items-center ">
-                        <p className="text-center"> <a href="/payment" className="text-center">Select Payment Method</a> </p>
+                    <a href="/payment" className="text-center"> <p className="text-center"> Continue </p> </a>
                     </div>
                 </div>
             </section>
@@ -113,7 +113,7 @@ export default function page(){
                     </div>
 
                     <div className="bg-timbu-green  py-2 rounded-md text-timbu-white  items-center ">
-                        <p className="text-center"> <a href="/payment" className="text-center">Select Payment Method</a> </p>
+                    <a href="/payment" className="text-center"> <p className="text-center"> Continue</p> </a> 
 
                     </div>
 

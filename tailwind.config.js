@@ -16,6 +16,7 @@ module.exports = {
         "timbu-white": "#FFFFFF",
         "timbu-red": "#EA5252",
         "timbu-blue": "#3A56ED",
+        "timbu-yellow": "#FAA527",
       },
     },
   },

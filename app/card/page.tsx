@@ -30,9 +30,9 @@ export default function page(){
                         </div>
                     </div>
 
-                    <div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/complete">Pay NGN 203,000</a> </div>
-                    <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center mx-40  flex gap-5 items-center justify-center"> <TbArrowsExchange className="text-2xl" /> <a href="/payment"> Change payment method</a></div>
-                    <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center mx-40 flex gap-5 items-center  justify-center"> <GiCancel className="text-2xl" /> <a href="/">  Cancel payment</a></div>
+                    <a href="/complete"><div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> Pay NGN 203,000 </div></a>
+                    <a href="/payment"><div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center mx-40  flex gap-5 items-center justify-center"> <TbArrowsExchange className="text-2xl" />  Change payment method</div></a>
+                    <a href="/"> <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center mx-40 flex gap-5 items-center  justify-center"> <GiCancel className="text-2xl" />  Cancel payment</div> </a>
                 </div>
 
             </section>
@@ -57,9 +57,9 @@ export default function page(){
                         </div>
                     </div>
 
-                    <div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/complete">Pay NGN 203,000</a> </div>
-                    <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center flex gap-5 items-center justify-center mx-5"> <TbArrowsExchange className="text-2xl" /> <a href="/payment"> Change payment method</a></div>
-                    <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center flex gap-5 items-center  justify-center mx-10"> <GiCancel className="text-2xl" /> <a href="/">  Cancel payment</a></div>
+                    <a href="/complete"> <div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> Pay NGN 203,000 </div></a>
+                    <a href="/payment"> <div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center flex gap-5 items-center justify-center mx-5"> <TbArrowsExchange className="text-2xl" />  Change payment method</div></a>
+                    <a href="/"><div className="p-2 rounded-md text-timbu-black border-2 border-timbu-black bg-timbu-white text-center flex gap-5 items-center  justify-center mx-10"> <GiCancel className="text-2xl" />   Cancel payment</div></a>
                 </div>
 
             </section>

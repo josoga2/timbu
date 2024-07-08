@@ -9,7 +9,7 @@ export default function page(){
     return(
         
         <main className="py-5 text-sm">
-            <section className="hidden md:flex md:max-w-screen-lg md:m-auto md:items-center md:justify-between text-timbu-black">
+            <section className="hidden md:flex md:max-w-screen-lg md:m-auto md:items-center md:justify-between text-timbu-black ">
                 <div className="flex flex-col gap-5 w-full">
                     <div>
                         <p className="font-bold text-lg"> Cart </p>

@@ -25,7 +25,7 @@ export default function page(){
                     <Paymenttool title="Pay with Amazon" logo={<FaAmazon/>}/>
                 </div>
 
-                <div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/card"> Enter your details</a></div>
+                <a href="/card"><div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center">  Continue </div></a>
             </section>
 
             <section className="md:hidden p-5">
@@ -41,7 +41,7 @@ export default function page(){
                     <Paymenttool title="Pay with PayPal" logo={<BsPaypal/>} />
                     <Paymenttool title="Pay with Amazon" logo={<FaAmazon/>}/>
                 </div>
-                <div className="p-2 rounded-md text-timbu-white bg-timbu-green text-center"> <a href="/card"> Enter your details</a></div>
+                <a href="/card"><div className="p-2 px-5 rounded-md text-timbu-white bg-timbu-green text-center">  Continue </div></a>
             </section>
         </main>
     )
